@@ -150,21 +150,21 @@ https://templatemo.com/tm-512-moonlight
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="left-content">
-                                                <h2>Nsoko Store</h2>
-                                                <p>Vestibulum augue ex, finibus sit amet nisi id, maximus ultrices
-                                                    ipsum. Maecenas rhoncus nibh in mauris lobortis, a maximus diam
-                                                    faucibus. In et eros urna. Suspendisse potenti. Pellentesque
-                                                    commodo, neque nec molestie tempus, purus ante feugiat augue.
+                                                <h2><a href="https://nsoko.store.codelabdrc.com/">Nsoko Store</a></h2>
+                                                <p>
+                                                    c'est une application web permettant aux magasins d'exposer 
+                                                    leurs articles en vue de faclité les clients dans leurs recherche 
+                                                    des différents articles via application mobile nsoko.
                                                 </p>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="right-content">
-                                                <h2>Nsoko Admin</h2>
-                                                <p>Sed vitae felis in lorem mollis mollis eget in leo. Donec commodo, ex
-                                                    nec rutrum venenatis, nisi nisl malesuada magna, sed semper ipsum
-                                                    enim a ipsum. Aenean in ante vel mi molestie bibendum. Quisque sit
-                                                    amet lacus in diam pretium faucibus. Cras vel justo lorem.</p>
+                                                <h2><a href="https://www.codelabdrc.com/">Nsoko Admin</a></h2>
+                                                <p>
+                                                    c'est une application qui permet de gérer 
+                                                    les magasins qui sont sur  la plateforme <a href="https://nsoko.store.codelabdrc.com/">Nsoko Store</a>
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -175,21 +175,19 @@ https://templatemo.com/tm-512-moonlight
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="left-content">
-                                                <h2>Top Bus Agence</h2>
-                                                <p>Vestibulum augue ex, finibus sit amet nisi id, maximus ultrices
-                                                    ipsum. Maecenas rhoncus nibh in mauris lobortis, a maximus diam
-                                                    faucibus. In et eros urna. Suspendisse potenti. Pellentesque
-                                                    commodo, neque nec molestie tempus, purus ante feugiat augue.
+                                                <h2><a href="https://ticketbus-congo.com/">Top Bus Agence</a> </h2>
+                                                <p>
+                                                    C'est une application qui permet de payer et/ou de reserver un ticket de bus dans une agence de voyace.
                                                 </p>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="right-content">
-                                                <h2>Top Bus admin</h2>
-                                                <p>Sed vitae felis in lorem mollis mollis eget in leo. Donec commodo, ex
-                                                    nec rutrum venenatis, nisi nisl malesuada magna, sed semper ipsum
-                                                    enim a ipsum. Aenean in ante vel mi molestie bibendum. Quisque sit
-                                                    amet lacus in diam pretium faucibus. Cras vel justo lorem.</p>
+                                                <h2><a href="https://ticketbus-congo.com/">Top Bus admin</a></h2>
+                                                <p>
+                                                    c'est une application qui permet de gerer les différents 
+                                                    agences qui sont sur la plateforme <a href="https://ticketbus-congo.com/">Top Bus Agence</a>
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -200,21 +198,21 @@ https://templatemo.com/tm-512-moonlight
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="left-content">
-                                                <h2>Kongo children dashboard</h2>
-                                                <p>Vestibulum augue ex, finibus sit amet nisi id, maximus ultrices
-                                                    ipsum. Maecenas rhoncus nibh in mauris lobortis, a maximus diam
-                                                    faucibus. In et eros urna. Suspendisse potenti. Pellentesque
-                                                    commodo, neque nec molestie tempus, purus ante feugiat augue.
+                                                <h2> <a href="https://kongochildren.org/"> Kongo children dashboard</a></h2>
+                                                <p>
+                                                    C'est une application qui permet de répertorier 
+                                                    les enfants et les jeunes qui sont dans les mines de l'espace grand katanga, 
+                                                    en vue de les aider à quitter les mines en leurs offrant une autre activité.
                                                 </p>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="right-content">
-                                                <h2>Mine MVP</h2>
-                                                <p>Sed vitae felis in lorem mollis mollis eget in leo. Donec commodo, ex
-                                                    nec rutrum venenatis, nisi nisl malesuada magna, sed semper ipsum
-                                                    enim a ipsum. Aenean in ante vel mi molestie bibendum. Quisque sit
-                                                    amet lacus in diam pretium faucibus. Cras vel justo lorem.</p>
+                                                <h2> <a href="https://www.codelabdrc.com/"> Mine MVP</a></h2>
+                                                <p>
+                                                    C'est une application qui permet à enregistrer 
+                                                    les creuseurs qui sont dans différentes mines du haut-katanga
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -225,11 +223,10 @@ https://templatemo.com/tm-512-moonlight
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="left-content">
-                                                <h2>SGCL-Système de gestion des cours en ligne</h2>
-                                                <p>Vestibulum augue ex, finibus sit amet nisi id, maximus ultrices
-                                                    ipsum. Maecenas rhoncus nibh in mauris lobortis, a maximus diam
-                                                    faucibus. In et eros urna. Suspendisse potenti. Pellentesque
-                                                    commodo, neque nec molestie tempus, purus ante feugiat augue.
+                                                <h2> <a href="https://prof.godlivemassivi.com/"> SGCL-Système de gestion des cours en ligne</a></h2>
+                                                <p>
+                                                    c'est une application des cours en ligne, qui comporte 3 accès celui de 
+                                                    l'administrateur du système, du professeur et en fin de l'étudiant
                                                 </p>
                                             </div>
                                         </div>
