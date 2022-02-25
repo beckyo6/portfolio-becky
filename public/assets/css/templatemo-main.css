@@ -376,22 +376,22 @@ nav a:hover::before {
 }
 
 .slides .slide:nth-child(1) {
-  background-image: url(../img/fifth_bg.jpg);
+  background-image: url(../img/fourth_bg.jpg);
 }
 .slides .slide:nth-child(2) {
-  background-image: url(../img/fifth_bg.jpg);
+  background-image: url(../img/fourth_bg.jpg);
 }
 .slides .slide:nth-child(3) {
-  background-image: url(../img/fifth_bg.jpg);
+  background-image: url(../img/fourth_bg.jpg);
 }
 .slides .slide:nth-child(4) {
-  background-image: url(../img/fifth_bg.jpg);
+  background-image: url(../img/fourth_bg.jpg);
  }
 .slides .slide:nth-child(5) {
-  background-image: url(../img/fifth_bg.jpg);
+  background-image: url(../img/fourth_bg.jpg);
 }
 .slides .slide:nth-child(6) {
-  background-image: url(../img/fifth_bg.jpg);
+  background-image: url(../img/fourth_bg.jpg);
 }
 .slides .slide img {
   width: 100%;
@@ -498,6 +498,15 @@ nav a:hover::before {
 	background-color: transparent;
 }
 
+.first-content .alert {
+	color: #fff;
+	background-color: transparent ;
+	border: 2px solid #0ECEA8;
+	padding: 8px 15px;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
 
 .second-content .container-fluid {
 	padding-right: 0px;
