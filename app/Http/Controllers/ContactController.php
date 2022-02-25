@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ContactSend;
 use App\Models\Contact;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class ContactController extends Controller
 {
@@ -48,6 +50,11 @@ class ContactController extends Controller
             'email' => $request->email,
             'message' => $request->message,
         ]);
+
+        // send email
+        Mail::to(env('MAIL_FROM_ADDRESS'))
+            ->cc('rebtshikadila@gmail.com')
+            ->send(new ContactSend($request));
 
         return redirect()->back()->withSuccess('Le message a été envoyé');
     }
