@@ -52,7 +52,7 @@ class ContactController extends Controller
         ]);
 
         // send email
-        Mail::to(env('MAIL_FROM_ADDRESS'))
+        Mail::to('contact@beckyada.com')
             ->cc('rebtshikadila@gmail.com')
             ->send(new ContactSend($request));
 
