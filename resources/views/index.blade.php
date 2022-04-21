@@ -13,15 +13,15 @@ https://templatemo.com/tm-512-moonlight
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="assets/css/fontAwesome.css">
-    <link rel="stylesheet" href="assets/css/light-box.css">
-    <link rel="stylesheet" href="assets/css/templatemo-main.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap-theme.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/fontAwesome.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/light-box.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/templatemo-main.css') }}">
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
 
-    <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <script src="{{ asset('assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js')}}"></script>
 </head>
 
 <body>
@@ -47,10 +47,10 @@ https://templatemo.com/tm-512-moonlight
 
     <nav>
         <div class="logo">
-            <img src="assets/img/logo.png" alt="">
+            <img src="{{ asset('assets/img/logo.png')}}" alt="">
         </div>
         <div class="mini-logo">
-            <img src="assets/img/mini_logo.png" alt="">
+            <img src="{{ asset('assets/img/mini_logo.png')}}" alt="">
         </div>
         <div class="title">
             <p> <strong>Portfolio-Becky ada </strong></p>
@@ -71,7 +71,7 @@ https://templatemo.com/tm-512-moonlight
             <div class="content first-content">
                 <div class="container-fluid">
                     <div class="col-md-4">
-                        <div class="author-image"><img src="assets/img/author_image.png" alt="Author Image"></div>
+                        <div class="author-image"><img src="{{ asset('assets/img/author_image.png')}}" alt="Author Image"></div>
                     </div>
                     <div class="col-md-6">
                         @if (session('success'))
@@ -111,7 +111,7 @@ https://templatemo.com/tm-512-moonlight
                     </div>
                     <div class="col-md-6">
                         <div class="right-image">
-                            <img src="assets/img/about_image.jpeg" alt="">
+                            <img src="{{ asset('assets/img/about_image.jpeg')}}" alt="">
                         </div>
                     </div>
                 </div>
@@ -328,14 +328,14 @@ https://templatemo.com/tm-512-moonlight
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>
-        window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
+        window.jQuery || document.write('<script src="{{ asset('js/vendor/jquery-1.11.2.min.js')}}"><\/script>')
     </script>
 
-    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="{{ asset('assets/js/vendor/bootstrap.min.js')}}"></script>
 
-    <script src="assets/js/datepicker.js"></script>
-    <script src="assets/js/plugins.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="{{ asset('assets/js/datepicker.js')}}"></script>
+    <script src="{{ asset('assets/js/plugins.js')}}"></script>
+    <script src="{{ asset('assets/js/main.js')}}"></script>
 
     <script type="text/javascript">
         $(document).ready(function() {
