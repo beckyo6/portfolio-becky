@@ -901,6 +901,14 @@ video {
   height: 33.333333%;
 }
 
+.h-3\/5 {
+  height: 60%;
+}
+
+.h-2\/5 {
+  height: 40%;
+}
+
 .w-2\/5 {
   width: 40%;
 }
@@ -931,6 +939,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-1\/5 {
+  width: 20%;
 }
 
 .flex-shrink {
@@ -2103,6 +2115,11 @@ video {
   padding-bottom: 2rem;
 }
 
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .pe-5 {
   padding-inline-end: 1.25rem;
 }
@@ -2213,6 +2230,11 @@ video {
 
 .text-5xl {
   font-size: 3rem;
+  line-height: 1;
+}
+
+.text-7xl {
+  font-size: 4.5rem;
   line-height: 1;
 }
 
