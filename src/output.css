@@ -1853,6 +1853,10 @@ video {
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
+.border-\[\] {
+  border-color: ;
+}
+
 .bg-\[\#4920BC\] {
   --tw-bg-opacity: 1;
   background-color: rgb(73 32 188 / var(--tw-bg-opacity));
