@@ -1432,18 +1432,6 @@ input:checked + .toggle-bg {
   height: 100%;
 }
 
-.h-1\/2 {
-  height: 50%;
-}
-
-.h-3\/5 {
-  height: 60%;
-}
-
-.h-2\/5 {
-  height: 40%;
-}
-
 .w-1\/2 {
   width: 50%;
 }
@@ -1498,10 +1486,6 @@ input:checked + .toggle-bg {
 
 .w-full {
   width: 100%;
-}
-
-.w-16 {
-  width: 4rem;
 }
 
 .flex-1 {
@@ -2792,16 +2776,12 @@ input:checked + .toggle-bg {
   padding: 0.625rem;
 }
 
-.p-4 {
-  padding: 1rem;
-}
-
-.p-10 {
-  padding: 2.5rem;
-}
-
 .p-36 {
   padding: 9rem;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .px-10 {
