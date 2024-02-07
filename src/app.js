@@ -9,8 +9,12 @@ const handleIntersect = function (entries, observer) {
     entries.forEach(function (entry) {
         if (entry.intersectionRatio > ratio) {
             entry.target.classList.add('reveal-visible')
-            observer.unobserve(entry.target)
-        } 
+            // observer.unobserve(entry.target)
+        }
+        else {
+            entry.target.classList.remove('reveal-visible')
+            // observer.unobserve(entry.target)
+        }
     });
 }
 
