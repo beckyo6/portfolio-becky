@@ -1041,15 +1041,15 @@ input:checked + .toggle-bg {
   }
 }
 
-.reveal{
+.reveal {
   opacity: 0;
-  transform: translateY(-30px);
+  transform: translateY(30px);
 }
 
-.reveal-visible{
+.reveal-visible {
   opacity: 1;
   transform: translateY(0);
-  transition: .3s;
+  transition: 1s cubic-bezier(.5, 0, 0, 1);
 }
 
 .sr-only {
@@ -1570,11 +1570,6 @@ input:checked + .toggle-bg {
 
 .translate-x-full {
   --tw-translate-x: 100%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.translate-y-10 {
-  --tw-translate-y: 2.5rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -3430,10 +3425,6 @@ input:checked + .toggle-bg {
   transition-duration: 150ms;
 }
 
-.duration-1000 {
-  transition-duration: 1000ms;
-}
-
 .duration-700 {
   transition-duration: 700ms;
 }
@@ -3738,4 +3729,3 @@ input:checked + .toggle-bg {
 .rtl\:space-x-reverse:where([dir="rtl"], [dir="rtl"] *) > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 1;
 }
-  

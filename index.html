@@ -37,8 +37,8 @@
             </div>
         </div>
     </nav>
-    <div class="flex mt-12 items-center justify-between ">
-        <div class="w-3/5 reveal reveal-visible">
+    <div class="flex mt-12 items-center justify-between reveal">
+        <div class="w-3/5">
             <div>
                 <span class="text-2xl">Salut, je suis</span>
                 <h3 class="text-6xl text-[#4920BC]">Rébecca Tshika.</h3>
@@ -62,19 +62,17 @@
 
     </div>
 
-    <div class="flex items-center justify-between h-full" id="about">
+    <div class="flex items-center justify-between h-full reveal" id="about">
         <div class="w-2/5 flex justify-start pe-5 pt-5 mb-4 ">
             <img src="./src/assets/about.png" alt="photo de Rebecca" class="w-96 h-auto">
         </div>
 
         <div class="w-3/5">
-            <div class="opacity-0 transform translate-y-10 transition duration-1000 ease-in-out animate-fade-in">
+            <div>
                 <h3 class="text-6xl text-black mb-5">
                     <span class="text-[#4920BC] italic text-3xl">02.</span>
                     À propos
                 </h3>
-
-
                 <p class="text-md text-wrap">
                     Je suis un développeur web junior avec plus de 3 ans d'expérience, la rigueur et le respect des
                     engagements sont les valeurs qui me définissent. <br> <br>
@@ -97,7 +95,7 @@
         </div>
     </div>
 
-    <div class="h-full" id="services">
+    <div class="h-full reveal" id="services">
 
         <h3 class="text-6xl text-black mb-3 text-center py-7">
             <span class="text-[#4920BC] italic text-3xl text-center">03.</span>
@@ -139,7 +137,7 @@
         </div>
     </div>
 
-    <div class="h-full px-4 mt-2 mb-3" id="portfolio">
+    <div class="h-full px-4 mt-2 mb-3 reveal" id="portfolio">
         <h3 class="text-6xl text-black mb-5 text-center">
             <span class="text-[#4920BC] italic text-3xl text-center">04.</span>
             Portfolio
@@ -156,7 +154,7 @@
 
     </div>
 
-    <div class="mt-10 mb-10">
+    <div class="mt-10 mb-10 reveal">
         <div id="default-carousel" class="relative w-full" data-carousel="slide">
             <!-- Carousel wrapper -->
             <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
@@ -290,7 +288,7 @@
 
     </div>
 
-    <div class="px-4 mt-20 mb-3">
+    <div class="px-4 mt-20 mb-3 reveal">
         <div class="relative w-full overflow-hidden rounded-lg bg-cover bg-no-repeat justify-center">
             <img src="./src/assets/setup.png" alt="photo de mon setup" class="w-full">
 
@@ -309,7 +307,7 @@
         </div>
     </div>
 
-    <div class="h-full px-4 mt-6 mb-3">
+    <div class="h-full px-4 mt-6 mb-3 reveal">
         <div class="flex items-center justify-between py-4">
             <div class="w-3/5">
                 <div>
@@ -363,6 +361,7 @@
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
     <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+    <script src="./src/app.js"></script>
 </body>
 
 </html>

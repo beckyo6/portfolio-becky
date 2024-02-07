@@ -3,15 +3,14 @@
 @tailwind utilities;
 
 @layer components {
-    .reveal{
-      opacity: 0;
-      transform: translateY(-30px);
-    }
-
-    .reveal-visible{
-      opacity: 1;
-      transform: translateY(0);
-      transition: .3s;
-    }
+  .reveal {
+    opacity: 0;
+    transform: translateY(30px);
   }
-  
+
+  .reveal-visible {
+    opacity: 1;
+    transform: translateY(0);
+    transition: 1s cubic-bezier(.5, 0, 0, 1);
+  }
+}
