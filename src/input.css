@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer components {
-  .reveal {
+  [class*="reveal-"] {
     opacity: 0;
     transform: translateY(30px);
   }
@@ -12,5 +12,20 @@
     opacity: 1;
     transform: translateY(0);
     transition: 1s cubic-bezier(.5, 0, 0, 1);
+  }
+
+  .reveal-1 {
+    transition: .1s;
+  }
+  .reveal-2 {
+    transition: .2s;
+  }
+
+  .reveal-3 {
+    transition: .3s;
+  }
+
+  .reveal-4 {
+    transition: .4s;
   }
 }
