@@ -2943,6 +2943,10 @@ input:checked + .toggle-bg {
   font-family: Raleway, sans-serif;
 }
 
+.font-roboto {
+  font-family: Roboto, sans-serif;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -3479,6 +3483,10 @@ input:checked + .toggle-bg {
   font-family: Raleway;
 
   src: url("src/fonts/Raleway/Raleway-VariableFont_wght.ttf");
+
+  font-family: Roboto;
+
+  src: url("src/fonts/Roboto/Roboto-Black.ttf");
 }
 
 @media (min-width: 640px) {
@@ -3739,6 +3747,10 @@ input:checked + .toggle-bg {
 @media (min-width: 768px) {
   .md\:h-full {
     height: 100%;
+  }
+
+  .md\:w-full {
+    width: 100%;
   }
 }
 
