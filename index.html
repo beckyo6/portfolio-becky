@@ -11,12 +11,12 @@
 </head>
 
 <body class="bg-white h-full">
-    <nav class="py-3 px-28 bg-white fixed top-0 w-full z-10">
+    <nav class="py-3 px-5 md:px-24 bg-white fixed top-0 w-full z-10">
         <div class="flex justify-between items-center">
             <a href="#" class="text-3xl font-bold items-center">
                 Rebecca Tshika
             </a>
-            <div class="flex gap-6 items-center">
+            <div class="hidden md:flex gap-6 items-center">
                 <a href="#" class="text-xl ">
                     <span class="text-[#4920BC] font-raleway italic text-sm">01.</span>
                     Accueil
@@ -37,40 +37,40 @@
             </div>
         </div>
     </nav>
-    <div class="flex h-full items-center justify-between mx-28">
-        <div class="w-3/5">
-            <div class="reveal-2">
+    <div class="flex h-screen md:h-full items-center md:justify-between mx-5 md:mx-28">
+        <div class="md:w-3/5">
+            <div class="reveal-2 text-center md:text-start">
                 <span class="font-roboto text-2xl">Salut, je suis</span>
-                <h3 class="font-raleway text-6xl text-[#4920BC]">Rébecca Tshika.</h3>
-                <h3 class="font-raleway text-6xl text-black mb-5">Développeur Web</h3>
+                <h3 class="font-raleway text-4xl md:text-6xl text-[#4920BC]">Rébecca Tshika.</h3>
+                <h3 class="font-raleway text-2xl md:text-6xl text-black mb-5">Développeur Web</h3>
 
-                <p class="font-roboto text-xl text-wrap">
+                <p class="font-roboto text-lg text-wrap">
                     Je conçois des sites web <span class="text-[#4920BC]">sur mesure</span>, taillés pour répondre à vos
                     attentes,
                     en vous offrant une expérience
                     en ligne <span class="text-[#4920BC]">unique</span> et en mettant en avant votre identité.
                 </p>
             </div>
-            <div class="mt-8 reveal-3">
-                <button class="font-raleway bg-[#4920BC]  text-white text-xl px-3 py-3 mr-5">Contactez moi</button>
-                <button class="font-raleway border border-[#4920BC]  text-[#4920BC] text-xl px-3 py-3">Demandez un devis</button>
+            <div class="mt-8 reveal-3 flex">
+                <button class="font-raleway bg-[#4920BC] text-white text-base md:text-xl px-3 py-3 mr-5">Contactez moi</button>
+                <button class="font-raleway border border-[#4920BC]  text-[#4920BC] text-base md:text-xl px-3 py-3">Demandez un devis</button>
             </div>
         </div>
-        <div class="w-2/5 flex justify-end pe-5 pt-5 reveal-1">
+        <div class="hidden md:w-2/5 md:flex justify-end pe-5 pt-5 reveal-1">
             <img src="./src/assets/cover.png" alt="photo de Rebecca" class="w-96 h-auto">
         </div>
 
     </div>
 
-    <div class="flex items-center justify-between h-full mx-28" id="about">
-        <div class="w-2/5 flex justify-start pe-5 pt-5 mb-4 reveal-1">
+    <div class="flex items-center justify-between md:h-full mx-8 md:mx-28" id="about">
+        <div class="hidden w-2/5 md:flex justify-start pe-5 pt-5 mb-4 reveal-1">
             <img src="./src/assets/about.png" alt="photo de Rebecca" class="w-96 h-auto">
         </div>
 
-        <div class="w-3/5">
+        <div class="md:w-3/5">
             <div class="reveal-2">
-                <h3 class="font-raleway text-6xl text-black mb-5">
-                    <span class=" text-[#4920BC] italic text-3xl">02.</span>
+                <h3 class="font-raleway text-center md:text-left text-4xl md:text-6xl text-black mb-5 ">
+                    <span class=" text-[#4920BC] italic text-xl md:text-3xl">02.</span>
                     À propos
                 </h3>
                 <p class="font-raleway text-md text-wrap">
@@ -88,23 +88,23 @@
                     J'ai hâte de collaborer avec vous pour réaliser des projets passionnants.
                 </p>
             </div>
-            <div class="mt-8 reveal-3">
-                <button class="bg-[#4920BC] font-raleway  text-white text-base px-3 py-3 mr-5">Demandez un devis</button>
-                <button class="border border-[#4920BC] font-raleway  text-[#4920BC] text-base px-3 py-3">Voir mes traveaux</button>
+            <div class="mt-8 reveal-3 w-full">
+                <button class="w-full md:w-auto bg-[#4920BC] font-raleway  text-white text-base px-3 py-3 mr-5 mb-3 md:mb-0">Demandez un devis</button>
+                <button class="w-full md:w-auto border border-[#4920BC] font-raleway  text-[#4920BC] text-base px-3 py-3">Voir mes traveaux</button>
             </div>
         </div>
     </div>
 
-    <div class="h-full mx-28 p-8" id="services">
+    <div class="md:h-full mx-3 md:mx-28 p-4 md:p-8" id="services">
 
-        <h3 class="font-raleway text-6xl text-black mb-3 text-center py-7 reveal-1">
+        <h3 class="font-raleway text-center md:text-left text-4xl md:text-6xl text-black mb-3 py-7 reveal-1">
             <span class="text-[#4920BC] italic text-3xl text-center">03.</span>
             Services
         </h3>
 
-        <div class="grid grid-cols-3 gap-8 p-4 ">
+        <div class="grid md:grid-cols-3 md:gap-8 p-4">
             <div class="bg-[#F1F1F1F1] p-4 reveal-2">
-                <div class="w-4/5 border-b-4 border-white">
+                <div class="w-full md:w-4/5 border-b-4 border-white">
                     <h3 class="font-raleway text-black text-4xl px-4 py-8 font-bold">Création de sites web</h3>
                 </div>
                 <div class="pt-8">
@@ -114,7 +114,7 @@
                 </div>
             </div>
             <div class="bg-[#F1F1F1F1] p-4 reveal-3">
-                <div class="w-4/5 border-b-4 border-white">
+                <div class="w-full md:w-4/5 border-b-4 border-white">
                     <h3 class="font-raleway text-black text-4xl px-4 py-8 font-bold">Refonte de sites web</h3>
                 </div>
                 <div class="pt-8">
@@ -124,7 +124,7 @@
                 </div>
             </div>
             <div class="bg-[#F1F1F1F1] p-4 reveal-4">
-                <div class="w-4/5 border-b-4 border-white">
+                <div class="w-full md:w-4/5 border-b-4 border-white">
                     <h3 class="font-raleway text-black text-4xl px-4 py-8 font-bold">Création d'appli web</h3>
                 </div>
                 <div class="pt-8">
@@ -137,13 +137,13 @@
         </div>
     </div>
 
-    <div class="h-full reveal-1 mx-28 pt-20" id="portfolio">
-        <h3 class="font-raleway text-6xl text-black mb-5 text-center">
-            <span class="text-[#4920BC] italic text-3xl text-center">04.</span>
+    <div class="md:h-full reveal-1 mx-5 md:mx-28 pt-8 md:pt-20" id="portfolio">
+        <h3 class="font-raleway text-center md:text-left text-4xl md:text-6xl text-black mb-5">
+            <span class="text-[#4920BC] italic text-xl md:text-3xl text-center">04.</span>
             Portfolio
         </h3>
 
-        <div class="relative w-full overflow-hidden rounded-lg bg-cover bg-no-repeat justify-center px-10 bg-[#ECE8D9]">
+        <div class="relative w-full overflow-hidden rounded-lg bg-cover bg-no-repeat justify-center px-10 bg-[#111111]">
             <img src="./src/assets/project.png" alt="photo du site" class="w-full">
 
             <div class="absolute bottom-0 left-0 right-0  h-1/3 w-full overflow-hidden bg-fixed"
@@ -154,7 +154,7 @@
 
     </div>
 
-    <div class="h-full mt-10 mb-10 reveal-1 mx-28 pt-20">
+    <div class="md:h-full mt-10 mb-10 reveal-1 mx-28 pt-8">
         <div id="default-carousel" class="relative h-full" data-carousel="slide">
             <!-- Carousel wrapper -->
             <div class="relative overflow-hidden md:h-full">
@@ -361,8 +361,10 @@
 
     <footer class="bg-[#4920BC]">
         <div class="flex justify-center">
-            <span class="text-white px-4 py-4"> © 2023 — Copyright <span class="font-bold text-md">Rebecca Tshika</span>
-                / Designed by Killingiants</span>
+            <span class="text-white px-4 py-4">
+                 © 2023 — Copyright <span class="font-bold text-md">Rebecca Tshika</span>
+                / Code By <a href="https://github.com/beckyo6" target="_blank">Rebecca Tshika</a> & Designed by <a href="#" target="_blank">Killingiants</a>
+            </span>
         </div>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
