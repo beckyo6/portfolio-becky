@@ -3748,10 +3748,6 @@ input:checked + .toggle-bg {
   .md\:h-full {
     height: 100%;
   }
-
-  .md\:w-full {
-    width: 100%;
-  }
 }
 
 @media (min-width: 1024px) {
