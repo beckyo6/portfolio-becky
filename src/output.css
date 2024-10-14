@@ -1255,6 +1255,10 @@ input:checked + .toggle-bg {
   clear: none;
 }
 
+.m-0 {
+  margin: 0px;
+}
+
 .mx-28 {
   margin-left: 7rem;
   margin-right: 7rem;
@@ -1311,10 +1315,6 @@ input:checked + .toggle-bg {
   margin-top: 2.5rem;
 }
 
-.mt-16 {
-  margin-top: 4rem;
-}
-
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -1329,6 +1329,14 @@ input:checked + .toggle-bg {
 
 .mt-8 {
   margin-top: 2rem;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
 }
 
 .box-border {
@@ -2114,6 +2122,12 @@ input:checked + .toggle-bg {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.75rem * var(--tw-space-x-reverse));
   margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-y-0 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0px * var(--tw-space-y-reverse));
 }
 
 .space-y-reverse > :not([hidden]) ~ :not([hidden]) {
@@ -3730,11 +3744,6 @@ input:checked + .toggle-bg {
     margin-right: 7rem;
   }
 
-  .md\:mx-2 {
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-  }
-
   .md\:mb-0 {
     margin-bottom: 0px;
   }
@@ -3787,8 +3796,9 @@ input:checked + .toggle-bg {
     padding: 2rem;
   }
 
-  .md\:p-4 {
-    padding: 1rem;
+  .md\:px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 
   .md\:px-24 {
@@ -3801,17 +3811,16 @@ input:checked + .toggle-bg {
     padding-right: 1rem;
   }
 
-  .md\:px-2 {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
-
   .md\:pt-20 {
     padding-top: 5rem;
   }
 
   .md\:text-left {
     text-align: left;
+  }
+
+  .md\:text-center {
+    text-align: center;
   }
 
   .md\:text-start {

@@ -10,7 +10,8 @@ const handleIntersect = function (entries, observer) {
         if (entry.intersectionRatio > ratio) {
             entry.target.classList.add('reveal-visible')
             // observer.unobserve(entry.target)
-        }
+
++[];        }
         else {
             entry.target.classList.remove('reveal-visible')
             // observer.unobserve(entry.target)
