@@ -1320,10 +1320,6 @@ input:checked + .toggle-bg {
   margin-inline-start: 2.5rem;
 }
 
-.mt-0 {
-  margin-top: 0px;
-}
-
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -1346,18 +1342,6 @@ input:checked + .toggle-bg {
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mb-24 {
-  margin-bottom: 6rem;
-}
-
-.mb-6 {
-  margin-bottom: 1.5rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
 }
 
 .box-border {
@@ -1501,10 +1485,6 @@ input:checked + .toggle-bg {
 
 .w-10 {
   width: 2.5rem;
-}
-
-.w-2\/5 {
-  width: 40%;
 }
 
 .w-20 {
@@ -3762,10 +3742,6 @@ input:checked + .toggle-bg {
 }
 
 @media (min-width: 640px) {
-  .sm\:mb-4 {
-    margin-bottom: 1rem;
-  }
-
   .sm\:underline {
     text-decoration-line: underline;
   }
@@ -3787,6 +3763,10 @@ input:checked + .toggle-bg {
 
   .md\:mt-16 {
     margin-top: 4rem;
+  }
+
+  .md\:block {
+    display: block;
   }
 
   .md\:flex {
@@ -3851,10 +3831,6 @@ input:checked + .toggle-bg {
 
   .md\:p-8 {
     padding: 2rem;
-  }
-
-  .md\:p-4 {
-    padding: 1rem;
   }
 
   .md\:px-2 {
