@@ -3866,10 +3866,6 @@ input:checked + .toggle-bg {
     text-align: start;
   }
 
-  .md\:font-raleway {
-    font-family: Raleway, sans-serif;
-  }
-
   .md\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;

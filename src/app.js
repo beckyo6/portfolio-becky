@@ -32,3 +32,8 @@ const menu = document.getElementById('menu');
 menuBtn.addEventListener('click', () => {
     menu.classList.toggle('hidden');
 });
+
+document.getElementById('scrollTop').addEventListener('click', function (e) {
+    e.preventDefault();  // Empêche le comportement par défaut de l'ancre
+    document.getElementById('top').scrollIntoView({ behavior: 'smooth' });
+});
