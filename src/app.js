@@ -34,6 +34,57 @@ menuBtn.addEventListener('click', () => {
 });
 
 document.getElementById('scrollTop').addEventListener('click', function (e) {
-    e.preventDefault();  // Empêche le comportement par défaut de l'ancre
+    e.preventDefault();  
     document.getElementById('top').scrollIntoView({ behavior: 'smooth' });
+});
+
+//animation de mes cards
+
+// Sélectionne toutes les cartes
+const cards = document.querySelectorAll(".card");
+
+cards.forEach((card) => {
+    // Animation au survol de la carte
+    card.addEventListener("mouseenter", () => {
+        // Applique l'effet sur la carte sélectionnée
+        gsap.to(card, {
+            scale: 1.2,
+            zIndex: 10,
+            boxShadow: "0 10px 20px rgba(0, 0, 0, 0.3)",
+            duration: 0.3
+        });
+
+        // Applique un effet aux autres cartes pour les mettre en arrière
+        cards.forEach((otherCard) => {
+            if (otherCard !== card) {
+                gsap.to(otherCard, {
+                    scale: 0.9,
+                    opacity: 0.6,
+                    zIndex: 1,
+                    duration: 0.3
+                });
+            }
+        });
+    });
+
+    // Rétablir les styles à la sortie de la carte
+    card.addEventListener("mouseleave", () => {
+        gsap.to(card, {
+            scale: 1,
+            zIndex: 1,
+            boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
+            duration: 0.3
+        });
+
+        // Rétablir les styles pour les autres cartes
+        cards.forEach((otherCard) => {
+            if (otherCard !== card) {
+                gsap.to(otherCard, {
+                    scale: 1,
+                    opacity: 1,
+                    duration: 0.3
+                });
+            }
+        });
+    });
 });
