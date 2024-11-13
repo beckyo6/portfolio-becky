@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.2",
-    "flowbite": "^2.2.1"
+    "flowbite": "^2.2.1",
+    "swiper": "^11.1.14"
   }
 }

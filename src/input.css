@@ -35,3 +35,20 @@
   font-family: Roboto;
   src: url("src/fonts/Roboto/Roboto-Black.ttf");
 }
+
+/* carrousel temoignage */
+
+.swiper-wrapper {
+  width: 100%;
+  height: max-content !important;
+  padding-bottom: 64px !important;
+  -webkit-transition-timing-function: linear !important;
+  transition-timing-function: linear !important;
+  position: relative;
+  }
+  .swiper-pagination-bullet {
+  background: #4F46E5;
+  }
+  .swiper-pagination-bullet-active {
+  background: #4F46E5 !important;
+  }

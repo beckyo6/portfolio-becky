@@ -34,7 +34,7 @@ menuBtn.addEventListener('click', () => {
 });
 
 document.getElementById('scrollTop').addEventListener('click', function (e) {
-    e.preventDefault();  
+    e.preventDefault();
     document.getElementById('top').scrollIntoView({ behavior: 'smooth' });
 });
 
@@ -87,4 +87,69 @@ cards.forEach((card) => {
             }
         });
     });
+});
+
+
+//split le nom sur l'accueil
+
+// Sélectionne le texte du nom
+const nameText = document.querySelector(".name");
+const name = "Rebecca Tshika."; // Texte complet à afficher
+
+// Cache le texte au départ
+nameText.innerHTML = "";
+
+// Fonction d'écriture progressive
+let index = 0;
+function writeName() {
+    if (index < name.length) {
+        nameText.innerHTML += name[index]; // Ajoute un caractère à la fois
+        index++;
+        // Répète l'animation toutes les 0.1 seconde
+        gsap.delayedCall(0.1, writeName);
+    } else {
+        // Après avoir écrit le nom en entier, réinitialise pour recommencer
+        gsap.delayedCall(1, resetAndRepeat); // Pause de 1 seconde avant de répéter
+    }
+}
+
+// Fonction pour réinitialiser et relancer l'animation
+function resetAndRepeat() {
+    nameText.innerHTML = ""; // Réinitialise le texte
+    index = 0; // Réinitialise l'index
+    writeName(); // Relance l'animation
+}
+
+
+// Lance l'animation
+writeName();
+
+
+
+// carrousel temoignages
+
+var swiper = new Swiper(".centered-slide-carousel", {
+    centeredSlides: true,
+    paginationClickable: true,
+    loop: true,
+    spaceBetween: 30,
+    slideToClickedSlide: true,
+    pagination: {
+        el: ".centered-slide-carousel .swiper-pagination",
+        clickable: true,
+    },
+    breakpoints: {
+        1920: {
+            slidesPerView: 4,
+            spaceBetween: 30
+        },
+        1028: {
+            slidesPerView: 2,
+            spaceBetween: 10
+        },
+        990: {
+            slidesPerView: 1,
+            spaceBetween: 0
+        }
+    }
 });
