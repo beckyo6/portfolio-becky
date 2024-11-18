@@ -153,3 +153,33 @@ var swiper = new Swiper(".centered-slide-carousel", {
         }
     }
 });
+
+// carrousel portfolio
+
+var swiper = new Swiper(".vertical-slide-carousel", {
+    loop: true,
+    direction: 'vertical',
+    mousewheelControl: true,
+    mousewheel: {
+        releaseOnEdges: true,
+    },
+    spaceBetween: 30,
+    grabCursor: true,
+    pagination: {
+        el: ".vertical-slide-carousel .swiper-pagination",
+        clickable: true,
+    },
+});
+
+
+// Fonction pour ouvrir le popup
+function openPopup(title, description) {
+    document.getElementById('popup-title').innerText = title;
+    document.getElementById('popup-description').innerText = description;
+    document.getElementById('popup').classList.remove('hidden');
+}
+
+// Fonction pour fermer le popup
+function closePopup() {
+    document.getElementById('popup').classList.add('hidden');
+}
